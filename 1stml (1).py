@@ -48,3 +48,4 @@ print(specific)
 print("\nGeneral Hypothesis:")
 for g in general:
     print(g)
+    
