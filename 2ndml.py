@@ -47,3 +47,11 @@ print(specific)
 print("\nGeneral Hypothesis:")
 for g in general:
     print(g)
+
+OUTPUT:
+Specific Hypothesis:
+['Sunny' 'Warm' '?' 'Strong' '?' '?']
+
+General Hypothesis:
+['Sunny', '?', '?', '?', '?', '?']
+['?', 'Warm', '?', '?', '?', '?']
