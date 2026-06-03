@@ -19,7 +19,6 @@ Original file is located at
 
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
-
 data = pd.read_csv("knn.csv")
 
 X = data[['Age','Salary']]
