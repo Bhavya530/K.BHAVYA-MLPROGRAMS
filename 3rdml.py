@@ -41,3 +41,7 @@ model.fit(X, y)
 sample = [[2,1,1,1]]
 
 print("Prediction:", model.predict(sample))
+
+
+OUTPUT:
+Prediction: [1]
