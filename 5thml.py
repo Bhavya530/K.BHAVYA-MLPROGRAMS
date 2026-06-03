@@ -30,3 +30,6 @@ model = KNeighborsClassifier(n_neighbors=3)
 model.fit(X, y)
 
 print("Prediction:", model.predict([[48,55000]]))
+
+OUTPUT:
+Prediction: [1]
