@@ -32,3 +32,7 @@ model = MLPClassifier(
 model.fit(X, y)
 
 print("Prediction:", model.predict([[1,0]]))
+
+
+OUTPUT:
+Prediction: [1]
