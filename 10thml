@@ -1,0 +1,22 @@
+#Q10
+
+import pandas as pd
+from sklearn.mixture import GaussianMixture
+
+data = {
+    'AnnualIncome':[15,16,17,18,20,25,30,35,40,45],
+    'SpendingScore':[39,81,6,77,40,76,6,94,3,72]
+}
+
+df = pd.DataFrame(data)
+
+X = df[['AnnualIncome','SpendingScore']]
+
+gmm = GaussianMixture(n_components=2, random_state=42)
+
+gmm.fit(X)
+
+labels = gmm.predict(X)
+
+print("Cluster Labels:")
+print(labels)
